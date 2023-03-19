@@ -1,6 +1,6 @@
-# Alternative to Metronic Template
+# Alternative to Metronic Template using Plain Bootstrap
 
-## Run App:
+## How to Run App:
 ### 1. Build App:
 ```shell
 make build
@@ -28,4 +28,9 @@ make stop
 docker stop madagascar
 ```
 
-
+## Template Functionality
+- [ ] Router
+- [ ] Error Page 
+- [x] Dashboard Page with Sidebar and Nav
+- [ ] i18n (Localization)
+- [ ] Custom Icons
