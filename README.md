@@ -29,8 +29,9 @@ docker stop madagascar
 ```
 
 ## Template Functionality
-- [ ] Router
+- [x] Router
 - [ ] Error Page 
 - [x] Dashboard Page with Sidebar and Nav
 - [ ] i18n (Localization)
 - [x] Custom Icons
+- [x] Page Examples

@@ -29,75 +29,35 @@
       "modules": true
     }
   },
-  "ignorePatterns": ["*.json"],
   "rules": {
-    "no-console": ["error", { "allow": ["warn", "error", "table"] }],
-    "import/no-anonymous-default-export": ["error", {
-      "allowArray": false,
-      "allowArrowFunction": true,
-      "allowAnonymousClass": false,
-      "allowAnonymousFunction": false,
-      "allowCallExpression": true, // The true value here is for backward compatibility
-      "allowLiteral": false,
-      "allowObject": false
-    }],
-    "indent": [
-      "error",
-      3,
-      {
-        "ignoredNodes": ["JSXAttribute", "JSXSpreadAttribute"]
-      }
-    ],
-    "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "double"],
-    "semi": ["error", "never"],
-    "object-curly-newline": ["error", { "multiline": true }],
-    "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/prop-types": "off",
-    "react/jsx-first-prop-new-line": [1, "never"],
-    "jsx-quotes": ["error", "prefer-double"],
-    "object-curly-spacing": [
-      "error",
-      "always",
-      { "objectsInObjects": true, "arraysInObjects": true }
-    ],
-    "react/jsx-max-props-per-line": [
-      1,
-      {
-        "maximum": {
-          "single": 3,
-          "multi": 3
-        }
-      }
-    ],
-    "react/jsx-sort-props": [
-      1,
-      {
-        "callbacksLast": true,
-        "shorthandFirst": true,
-        "ignoreCase": true,
-        "reservedFirst": ["key", "ref", "dangerouslySetInnerHTML"]
-      }
-    ],
-    "import/order": [
+    "no-console": [
       "error",
       {
-        "groups": ["builtin", "external", "internal", "type"],
-        "pathGroups": [
-          {
-            "pattern": "react",
-            "group": "external",
-            "position": "before"
-          }
-        ],
-        "pathGroupsExcludedImportTypes": ["react"],
-        "newlines-between": "always",
-        "alphabetize": {
-          "order": "asc",
-          "caseInsensitive": true
-        }
+        "allow": [
+          "warn",
+          "error",
+          "table"
+        ]
       }
-    ]
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "multiline": true
+      }
+    ],
+    "react/prop-types": "off"
   }
 }
