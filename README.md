@@ -33,4 +33,4 @@ docker stop madagascar
 - [ ] Error Page 
 - [x] Dashboard Page with Sidebar and Nav
 - [ ] i18n (Localization)
-- [ ] Custom Icons
+- [x] Custom Icons
